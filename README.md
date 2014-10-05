@@ -4,17 +4,18 @@ This app is designed to provide a (RGB) LED bargraph from the microphone input u
 
 ## Table of contents
 
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Run](#run)
-- [Have fun](#have-fun)
-- [TODO](#todo)
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Run](#run)
+* [Have fun](#have-fun)
+* [TODO](#todo)
 
 ## Requirements
 
-    * An Arduino or whatever *duino-like you have near your hands  Actually, I used some nano-like I bought on \"Aliexpress\" for something like 3 bucks.
-    * A running computer with python
-    * A head
+* An Arduino or whatever *duino-like you have near your hands.  
+Actually, I used some nano-like I bought on "Aliexpress" for something like 3 bucks.
+* A running computer with python
+* A head
 
 ## Setup
 
@@ -40,7 +41,7 @@ Assuming that you know how to use an arduino, and since there are many tutorials
 
         ledMeter "[PORT]" [BAUDRATE]
 
-According to my configuration, I use `ledMeter \"/dev/ttyUSB0\" 9600`.
+According to my configuration, I use `ledMeter "/dev/ttyUSB0" 9600`.
 
 ## Have fun
 
