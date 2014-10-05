@@ -2,6 +2,7 @@
 
 #include "Tlc5940.h"      // Includes the TLC library
 
+
 // DECLARATIONS
 
 //// Led declarations
@@ -9,16 +10,16 @@
 const int serRange = 255;                  // Serial range starting from 0 to serRange
 const int tlcRange = 4095;                 // TLC range starting from 0 to tlcRange
 const int ledRow = 8;                      // Number of led rows
-const int ledCol = 1;                      // Number of led/row
+const int ledCol = 2;                      // Number of led/row
 const int ledPins[ledRow][ledCol] = {      // Pins to assign to each row
-  {0},                                     //   e.g. : each line is a row
-  {1},                                     //   The first one "{0}" means that the pins "0" is assigned to the first row
-  {2},
-  {4},
-  {7},
-  {10},
-  {11},
-  {14}
+  {0, 16},                                     //   e.g. : each line is a row
+  {1, 17},                                     //   The first one "{0}" means that the pins "0" is assigned to the first row
+  {2, 18},
+  {4, 20},
+  {7, 23},
+  {10, 26},
+  {11, 27},
+  {14, 30}
 };
 
 //// Average
