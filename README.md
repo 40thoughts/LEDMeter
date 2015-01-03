@@ -8,7 +8,7 @@ This app is designed to provide a (RGB) LED bargraph from the microphone input u
 * [Setup](#setup)
 * [Run](#run)
 * [Have fun](#have-fun)
-* [TODO](#todo)
+* [Schematic](#schematic)
 
 ## Requirements
 
@@ -47,6 +47,6 @@ According to my configuration, I use `ledMeter "/dev/ttyUSB0" 9600`.
 
 And now, just talk in your mike or put a jack from the soundcard output to the microphone input and enjoy!!!
 
-## TODO
+## Schematic
 
-* Add the wiring
+![alt text](https://raw.githubusercontent.com/40thoughts/LEDMeter/master/schematic/schematic.png "schematic")
